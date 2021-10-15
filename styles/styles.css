@@ -184,3 +184,17 @@ header{
 #cet{
     margin-left: 36.5%;
 }
+.texto_izq{
+    display: inline-block;
+    margin-top: 250px;
+    width: 50%;
+    text-align: justify;
+    font-size: 1em;
+}
+.imagen_derecha{
+    display: inline-block;
+    position: fixed;
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 10%;
+}
