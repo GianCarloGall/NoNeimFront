@@ -93,6 +93,9 @@ header{
     margin-left: 34%;
     transition: all 1s ease;
 }
+#menor_tam{
+    width: 70px;
+}
 .fuente__title{
     display: inline-block;
     font-size: 3.5rem;
@@ -110,12 +113,12 @@ header{
 }
 .cecyts_article{
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 60px;
     width: 24%;
     padding: 5px;
     margin-right: 3.5%;
     margin-left: 3.5%;
-    height:320px;
+    height:350px;
     text-align: center;
     border-radius: 10px;
     text-decoration: none;
@@ -177,7 +180,7 @@ header{
     width: 45%;
 }
 .cecyt15{
-    width: 70%;
+    width: 60%;
 }
 .cet{
     width: 60%;
