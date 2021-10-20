@@ -289,7 +289,6 @@ li a{
     background: #e6e6e6;
     color: #1b3b91;
 }
-/*_____________________________________________________________*/
 #espacio{
     margin-top: 250px;
 }
@@ -322,4 +321,89 @@ li a{
 }
 .images:hover{
     box-shadow: rgba(27,59,145,0.3) 5px 5px 5px;
+}
+/*_____________________________________________________________*/
+form{
+    display: inline-block;
+    margin-top: 190px;
+    width: 45%;
+}
+#formS{
+    margin-top: 270px;
+}
+form .grupo{
+    position: relative;
+    margin: 25px;
+}
+.images_form{
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+input{
+    background: none;
+    color: black;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(27,59,145,0.3);
+}
+input:focus{
+    outline: none;
+    color: black;
+}
+label{
+    font-weight: bold;
+    color: #1b3b91;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: all 0.5s ease-in-out;
+    pointer-events: none;
+}
+input:focus~label,
+input:valid~label{
+    top: -14px;
+}
+input:invalid{
+    border-bottom: 1px solid rgba(245, 17, 17, 0.39);
+}
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: #1b3b91;
+    transition: 0.3s ease width;
+    left: 0;
+}
+input:focus~.barra::before{
+    width: 100%;
+}
+button{
+    padding: 7px 15px;
+    border: 2px solid #1b3b91;
+    border-radius: 5px;
+    margin-left: 23px;
+    background: #1b3b91;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+}
+button:hover{
+    background: #e6e6e6;
+    color: #1b3b91;
 }

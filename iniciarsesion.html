@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Escuelas | NoNeim</title>
+    <title>Iniciar Sesión | NoNeim</title>
     <link rel="icon" href= "images/icon.png">
     <link rel = "stylesheet" type = 'text/css' href = "styles/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,10 +29,21 @@
         </nav>
     </header>
     <section>
-        <form action="" method="post" id="form">
-            <p class="title2">Registro</p>
-            
+        <form action="" method="post" id="formS">
+            <div class="form">
+                <p class="title2">Iniciar Sesión</p>
+                <div class="grupo">
+                    <input type="email" name="" id="name" required><span class="barra"></span>
+                    <label for="">Email</label>
+                </div>
+                <div class="grupo">
+                    <input type="password" name="" id="name" required><span class="barra"></span>
+                    <label for="">Contraseña</label>
+                </div>
+                <button type="submit">Iniciar Sesión</button>
+            </div>
         </form>
+        <img class="images_form animate__animated animate__zoomInLeft animate__slow" src="images/cuenta.svg" alt="Error al cargar la imagen" title="Iniciar Sesión">
     </section>
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
