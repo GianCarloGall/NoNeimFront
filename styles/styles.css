@@ -369,6 +369,9 @@ input:focus~label,
 input:valid~label{
     top: -14px;
 }
+input:invalid~label{
+    left: -100px;
+}
 input:invalid{
     border-bottom: 1px solid rgba(245, 17, 17, 0.39);
 }
