@@ -23,30 +23,32 @@
         </div>
         <nav>
             <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
-            <a href="escuelas.html"><i class="fas fa-graduation-cap"></i> Escuelas</a>
-            <a href="comipems.html"><i class="far fa-file-alt"></i> COMIPEMS</a>
             <a href="iniciarsesion.html"><i class="fas fa-user-tie"></i> Iniciar Sesión</a>
         </nav>
     </header>
     <section>
-        <form action="" method="post" id="form">
+        <form action="" method="post" id="formS">
             <div class="form">
                 <p class="title2">Registro</p>
-                <div class="grupo">
-                    <input type="text" name="" id="name" required><span class="barra"></span>
+                <div class="grupo" id="grupo__nombre">
+                    <input type="text" name="nombre" id="name" required><span class="barra"></span>
                     <label for="">Nombre</label>
                 </div>
                 <div class="grupo">
-                    <input type="text" name="" id="name" required><span class="barra"></span>
+                    <input type="text" name="grupo" id="name" required><span class="barra"></span>
                     <label for="">Grupo</label>
                 </div>
                 <div class="grupo">
-                    <input type="email" name="" id="name" required><span class="barra"></span>
+                    <input type="email" name="email" id="name" required><span class="barra"></span>
                     <label for="">Email</label>
                 </div>
                 <div class="grupo">
-                    <input type="password" name="" id="name" required><span class="barra"></span>
+                    <input type="password" name="password" id="name" required><span class="barra"></span>
                     <label for="">Contraseña</label>
+                </div>
+                <div class="grupo">
+                    <input type="password2" name="password2" id="name" required><span class="barra"></span>
+                    <label for="">Confirmar</label>
                 </div>
                 <button type="submit">Registrar</button>
             </div>

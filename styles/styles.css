@@ -325,11 +325,11 @@ li a{
 /*_____________________________________________________________*/
 form{
     display: inline-block;
-    margin-top: 190px;
-    width: 45%;
+    margin-top: 170px;
+    width: 50%;
 }
-#formS{
-    margin-top: 270px;
+#form{
+    margin-top: 100px;
 }
 form .grupo{
     position: relative;
@@ -338,7 +338,7 @@ form .grupo{
 .images_form{
     display: inline-block;
     position: absolute;
-    width: 30%;
+    width: 25%;
     margin-top: 20%;
     margin-left: 10%;
 }
@@ -360,20 +360,19 @@ label{
     font-weight: bold;
     color: #1b3b91;
     position: absolute;
-    left: 5px;
+    left: -100px;
     top: 10px;
     transition: all 0.5s ease-in-out;
     pointer-events: none;
 }
-input:focus~label,
-input:valid~label{
+input:focus~label{
     top: -14px;
 }
-input:invalid~label{
-    left: -100px;
+.invalid{
+    color: red
 }
-input:invalid{
-    border-bottom: 1px solid rgba(245, 17, 17, 0.39);
+.valid{
+    color: green;
 }
 .barra{
     position: relative;
@@ -389,9 +388,6 @@ input:invalid{
     background: #1b3b91;
     transition: 0.3s ease width;
     left: 0;
-}
-input:focus~.barra::before{
-    width: 100%;
 }
 button{
     padding: 7px 15px;
