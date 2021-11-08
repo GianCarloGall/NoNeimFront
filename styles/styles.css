@@ -294,7 +294,7 @@ li a{
     margin-top: 220px;
 }
 .derecha{
-    width: 55%;
+    width: 50%;
     display: inline-block;
 }
 .izquierda{
@@ -302,23 +302,26 @@ li a{
     margin-left: 10%;
     display: inline-block;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 .derecha2{
-    width: 40%;
+    width: 30%;
     display: inline-block;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 .izquierda2{
-    width: 45%;
-    margin-left: 55%;
+    width: 50%;
+    margin-left: 50%;
     display: inline-block;
 }
 .images{
-    width: 80%;
+    width: 95%;
     transition: all 0.5s ease;
     border-radius: 15px;
+}
+#segunda_imagen{
+    margin-top: 150px;
 }
 /*_____________________________________________________________*/
 form{
@@ -426,4 +429,38 @@ button:hover{
     width: 16%;
     margin-top: 20px;
     margin-left: 44%;
+}
+.subtitle{
+    color: #1b3b91;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/*_______________*/
+table{
+    padding: 20px;
+}
+table td{
+    padding-left: 25px;
+}
+table th{
+    padding-left: 25px;
+    color: #1b3b91;
+    font-weight: bold;
+}
+ul li{
+    text-align: justify;
+}
+li{
+    text-align: justify;
+}
+.espacio4{
+    height: 450px;
+}
+#texto__izq{
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    margin-top: 150px;
+    margin-left: 45%;
 }
