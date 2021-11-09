@@ -464,3 +464,89 @@ li{
     margin-top: 150px;
     margin-left: 45%;
 }
+.fondo{
+    text-align: center;
+    border-radius: 10px;
+}
+.slider li img{
+    width: 100%;
+}
+.slider li{
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+ul.slider li:target{
+    opacity: 1;
+}
+.izquierda3{
+    width: 45%;
+    margin-left: 10%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20%;
+}
+.derecha3{
+    width: 40%;
+    display: inline-block;
+}
+#cecyt_1{
+    width: 100%;
+}
+#cecyt_2{
+    width: 50%;
+    margin-left: 50px;
+}
+#cecyt_3{
+    width: 120%;
+    margin-left: 100px;
+}
+#cecyt_4{
+    width: 130%;
+    margin-left: 50px;
+}
+#cecyt_5{
+    width: 80%;
+}
+#cecyt_6{
+    width: 48%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#cecyt_7{
+    width: 44%;
+}
+#cecyt_8{
+    width: 40%;
+}
+#cecyt_9{
+    width: 55%;
+}
+#cecyt_10{
+    width: 90%;
+    margin-left: 120px;
+}
+#cecyt_11{
+    width: 90%;
+}
+#cecyt_12{
+    width: 120%;
+    margin-left: 70px;
+}
+#cecyt_13{
+    width: 90%;
+    margin-left: 80px;
+}
+#cecyt_14{
+    width: 40%;
+}
+#cecyt_15{
+    width: 100%;
+    margin-left: 90px;
+}
+#cet_1{
+    width: 130%;
+    margin-left: 50px;
+}
