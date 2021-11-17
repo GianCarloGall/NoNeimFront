@@ -1,3 +1,6 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
 body::-webkit-scrollbar{
     width: 5px;
     background: #e6e6e6;
@@ -23,6 +26,7 @@ header nav a{
     margin-right: 10px;
 }
 header nav a:hover{
+    color: white;
     background: rgba(0, 0, 0, 0.2);
     border-top: 2px solid white;
     border-bottom: 2px solid white;
@@ -66,6 +70,7 @@ header nav{
     z-index: 30;
 }
 section{
+    background: #e6e6e6;
     padding-left: 6rem;
     padding-right: 6rem;
     padding-top: 2rem;
@@ -210,6 +215,7 @@ a{
     text-decoration: none;
 }
 .title{
+    color: black;
     margin-top: 230px;
     font-size: 2rem;
     text-shadow: rgba(0, 0, 0, 0.3) 2px 2px;
@@ -233,9 +239,19 @@ iframe{
     margin-left: 52%;
 }
 .title2{
+    color: black;
     font-size: 2rem;
     text-shadow: rgba(0, 0, 0, 0.3) 2px 2px;
     text-align: center;
+}
+.title3{
+    color: black;
+    font-size: 1.3rem;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px;
+    text-align: center;
+}
+.categorias{
+    margin-bottom: 30px;
 }
 .center{
     text-align: center;
@@ -320,6 +336,11 @@ li a{
     transition: all 0.5s ease;
     border-radius: 15px;
 }
+.images_exam{
+    width: 24%;
+    margin-left: 38%;
+    margin-bottom: 30px;
+}
 #segunda_imagen{
     margin-top: 150px;
 }
@@ -327,7 +348,7 @@ li a{
 form{
     display: inline-block;
     margin-top: 170px;
-    width: 50%;
+    width: 60%;
 }
 #form{
     margin-top: 100px;
@@ -340,7 +361,7 @@ form .grupo{
     display: inline-block;
     position: absolute;
     width: 25%;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 10%;
 }
 input{
@@ -357,7 +378,7 @@ input:focus{
     outline: none;
     color: black;
 }
-label{
+.label1{
     font-weight: bold;
     color: #1b3b91;
     position: absolute;
@@ -390,20 +411,38 @@ input:focus~label{
     transition: 0.3s ease width;
     left: 0;
 }
-button{
+.button{
     padding: 7px 15px;
     border: 2px solid #1b3b91;
     border-radius: 5px;
-    margin-left: 23px;
+    width: 46%;
+    margin-left: 52%;
     background: #1b3b91;
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
     cursor: pointer;
-    transition: all ease-in 0.5s;
+    transition: all ease-in 0.3s;
 }
-button:hover{
+.button:hover{
+    background: #e6e6e6;
+    color: #1b3b91;
+}
+.button2{
+    padding: 7px 15px;
+    border: 2px solid #1b3b91;
+    border-radius: 5px;
+    width: 20%;
+    background: #1b3b91;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+.button2:hover{
     background: #e6e6e6;
     color: #1b3b91;
 }
@@ -549,4 +588,74 @@ ul.slider li:target{
 #cet_1{
     width: 130%;
     margin-left: 50px;
+}
+.user{
+    border-radius: 50%;
+    background: #1b3b91;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin-left: 96%;
+    margin-top: 37%;
+    transition: all 0.3s ease-out;
+}
+.user a{
+    margin-left: 11px;
+    font-size: 2em;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+.user:hover, .user a:hover{
+    box-shadow: rgba(0, 0, 0, 0.3);
+}
+/*______________________________________________________________________________*/
+.form-group{
+    width: 100%;
+}
+.form_exam{
+    width: 100%;
+}
+.respuestas{
+    display: inline-block;
+    position: relative;
+    width: 48%;
+    margin-left: 1%;
+    margin-bottom: 15px;
+    color:black;
+    transition: all 0.5 ease-in-out;
+}
+.respuestas:hover{
+    box-shadow: rgba(0, 0, 0, 0.3);
+}
+.espacio_title{
+    height: 30px;
+}
+.form_exam input[type="radio"]{
+    display: none;
+}
+.form_exam input[type="radio"]:checked + .label{
+    background: #e6e6e6;
+    color: #1b3b91;
+}
+.form_exam label{
+    color: white;
+    background: #1b3b91;
+    border: 2px solid #1b3b91;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;   
+}
+#a{
+    margin-left: 120px;
+}
+.justificado_pregunta{
+    text-align: justify;
+    margin-bottom: 10px;
 }

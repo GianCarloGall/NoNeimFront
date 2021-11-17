@@ -11,9 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src="https://kit.fontawesome.com/9fb0a1aa63.js" crossorigin="anonymous"></script>
-    <script src='main.js'></script>
+    
 </head>
 <body>
     <header>
@@ -27,31 +26,43 @@
         </nav>
     </header>
     <section>
-        <form action="" method="post" id="formS">
+        <form method="post" name="registroalumno" action="guardar_alumno">
             <div class="form">
                 <p class="title2">Registro</p>
                 <div class="grupo" id="grupo__nombre">
-                    <input type="text" name="nombre" id="name" required><span class="barra"></span>
-                    <label for="">Nombre</label>
+                    <input type="text" name="nombre" required><span class="barra"></span>
+                    <label class="label1" for="">Nombre</label>
                 </div>
                 <div class="grupo">
-                    <input type="text" name="grupo" id="name" required><span class="barra"></span>
-                    <label for="">Grupo</label>
+                    <input type="text" name="ap_pat" required><span class="barra"></span>
+                    <label class="label1" for="">Apellido<br>Paterno</label>
                 </div>
                 <div class="grupo">
-                    <input type="email" name="email" id="name" required><span class="barra"></span>
-                    <label for="">Email</label>
+                    <input type="text" name="ap_mat" required><span class="barra"></span>
+                    <label class="label1" for="">Apellido<br>Materno</label>
                 </div>
                 <div class="grupo">
-                    <input type="password" name="password" id="name" required><span class="barra"></span>
-                    <label for="">Contraseña</label>
+                    <input type="email" name="correo" required><span class="barra"></span>
+                    <label class="label1" for="">Correo</label>
                 </div>
                 <div class="grupo">
-                    <input type="password2" name="password2" id="name" required><span class="barra"></span>
-                    <label for="">Confirmar</label>
+                    <input type="text" name="usuario" required><span class="barra"></span>
+                    <label class="label1" for="">Usuario</label>
                 </div>
-                <button type="submit">Registrar</button>
-            </div>
+                <div class="grupo">
+                    <input type="password" name="pass" required><span class="barra"></span>
+                    <label class="label1" for="">Contraseña</label>
+                </div>
+                <div class="grupo">
+                    <input type="password" name="pass2" required><span class="barra"></span>
+                    <label class="label1" for="">Confirmar<br>Contraseña</label>
+                </div>
+                <div class="grupo">
+                    <input type="password" name="codigo" required><span class="barra"></span>
+                    <label class="label1" for="">Código</label>
+                </div> 
+                <input class="button" type="submit" value="Registrar alumno">
+            </div>           
         </form>
         <img class="images_form animate__animated animate__zoomInLeft animate__slow" src="images/unDraw/password.svg" alt="Error al cargar la imagen" title="Registro">
     </section>
