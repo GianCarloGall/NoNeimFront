@@ -9,6 +9,7 @@ body::-webkit-scrollbar-thumb{
     background: #1b3b91;
     border-radius: 5px;
 }
+
 body{
     background: #e6e6e6;
     font-family: 'Quicksand', sans-serif;
@@ -96,6 +97,13 @@ header{
     width: 100px;
     margin-top: 37px;
     margin-left: 34%;
+    transition: all 1s ease;
+}
+#logo2{
+    position: absolute;
+    width: 100px;
+    margin-top: 37px;
+    margin-left: 20%;
     transition: all 1s ease;
 }
 #menor_tam{
