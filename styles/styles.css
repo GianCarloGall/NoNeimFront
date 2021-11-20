@@ -598,6 +598,7 @@ ul.slider li:target{
     position: absolute;
 }
 .derecha_chat_img{
+    position: fixed;
     width: 80%;
     margin-left: 10%;
 }
