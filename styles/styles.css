@@ -65,9 +65,10 @@ header nav{
     font-size: 15px;
     letter-spacing: 1px;
     bottom: 0;
+    right: 0;
+    left: 0;
     height: 62px;
     line-height: 32px;
-    width: 100%;
     z-index: 30;
 }
 section{
@@ -699,15 +700,13 @@ ul.slider li:target{
         position: absolute;
         background: #1b3b91;
         text-align: center;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 10px;
         letter-spacing: 0px;
         bottom: 0;
         left: 0;
         height: 62px;
         line-height: 0;
-        margin-left: 0;
-        width: 100%;
         z-index: 30;
     }
     header nav a{
@@ -719,6 +718,6 @@ ul.slider li:target{
         border-top: 2px solid #1b3b91;
         border-bottom: 2px solid #1b3b91;
         transition: all 0.5s;
-        margin-right: 0px;
+        margin-right: 10px;
     }
 }
