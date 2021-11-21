@@ -850,7 +850,7 @@ ul.slider li:target{
         border-radius: 10px;
         transition: all 0.5s ease;
         width: 80%;
-        height: 30%;
+        height: 27%;
         margin-left: 5%;
         border: 0;
     }
@@ -859,7 +859,7 @@ ul.slider li:target{
         position: absolute;
         width: 80%;
         margin-top: 58%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .foto{
         width: 100%;
@@ -870,6 +870,6 @@ ul.slider li:target{
     }
     .justificado{
         width: 80%;
-        margin-left: 10%;
+        margin-left: 7%;
     }
 }
