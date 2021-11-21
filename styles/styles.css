@@ -802,4 +802,20 @@ ul.slider li:target{
     #cecyts_img{
         margin-top: 60px;
     }
+    /*__________________________________________________________*/
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .lista__imagen{
+        width:80%;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    .lista{
+        display: inline-block;
+        width: 95%;
+        margin-left: 1%;
+    }
 }
