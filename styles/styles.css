@@ -914,11 +914,14 @@ ul.slider li:target{
         display: block;
         position: inherit;
         width: 80%;
-        margin-top: 235px;
+        margin-top: 250px;
         margin-left: 10%;
         text-align: justify;
     }
     .espacio4{
         height: 0px;
+    }
+    b{
+        text-align: justify;
     }
 }
