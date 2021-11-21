@@ -705,7 +705,7 @@ ul.slider li:target{
         letter-spacing: 0px;
         bottom: 0;
         left: 0;
-        width: 100%;
+        width: 99%;
         height: 62px;
         line-height: 0;
         z-index: 30;
