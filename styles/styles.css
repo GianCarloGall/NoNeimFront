@@ -870,12 +870,41 @@ ul.slider li:target{
     .foto{
         width: 100%;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         margin-left: 0;
         border-radius: 10px;
     }
     .justificado{
         width: 90%;
         margin-left: 5%;
+    /*_________________________________________________________________*/
+    }.derecha{
+        width: 90%;
+        margin-left: 5%;
+        display: block;
+    }
+    .izquierda{
+        width: 90%;
+        margin-left: 5%;
+        display: block;
+        position: inherit;
+        margin-top: 8%;
+    }
+    .derecha2{
+        width: 90%;
+        margin-left: 5%;
+        display: block;
+        position: inherit;
+        margin-top: 8%;
+    }
+    .izquierda2{
+        width: 90%;
+        margin-left: 5%;
+        display: block;
+    }
+    .images{
+        width: 95%;
+        transition: all 0.5s ease;
+        border-radius: 15px;
     }
 }
