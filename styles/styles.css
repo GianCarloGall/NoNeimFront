@@ -841,6 +841,7 @@ ul.slider li:target{
     .text_dere{
         width: 90%;
         margin-left: 5%;
+        margin-bottom: 40px;
     }
     .imagen_dere{
         display: none;
