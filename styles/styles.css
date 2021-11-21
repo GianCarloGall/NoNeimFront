@@ -113,6 +113,12 @@ section{
 #cecyts_imagenes{
     margin-top: 250px;
 }
+#cecyts_imag{
+    margin-top: 250px;
+}
+#cecyts_imagen{
+    margin-top: 250px;
+}
 .cecyts_article{
     display: inline-block;
     margin-top: 60px;
@@ -642,8 +648,19 @@ ul.slider li:target{
 .user:hover + .user2{
     display: block;
 }
+.noOcultar{
+    display: block;
+}
+.ocultar{
+    display: none;
+}
 @media only screen and (max-width: 800px) {
-    
+    .noOcultar{
+        display: none;
+    }
+    .ocultar{
+        display: block;
+    }
     section{
         background: #e6e6e6;
         padding-left: 2rem;
@@ -660,7 +677,7 @@ ul.slider li:target{
         margin-left: 25px;
     }
     .fuente__title{
-        font-size: 2.3rem;
+        font-size: 2rem;
         margin-top: 60px;
         margin-left: 100px;
     }
@@ -711,17 +728,29 @@ ul.slider li:target{
     .article{
         display: inline-block;
         margin-top: 30px;
-        width: 45%;
+        width: 42%;
         padding: 5px;
         margin-right: 0.5%;
         margin-left: 0.5%;
         height: 200px;
     }
+    #cecyts_imag{
+        margin-top: 230px;
+    }
+    #cecyts_imagenes{
+        margin-top: 230px;
+    }
+    #cecyts_imagen{
+        margin-top: 30px;
+    }
     #article_izq{
         margin-left: 0%;
     }
+    #margen_left_r{
+        margin-left: 26%;
+    }
     .title2{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     /*_______________________________________________________________________*/
     form{
@@ -744,5 +773,33 @@ ul.slider li:target{
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 10%;
+    }
+    /*_______________________________________________________________________________________________*/
+    .cecyts_article{
+        margin-top: 60px;
+        width: 90%;
+        padding: 5px;
+        margin-right: 0%;
+        margin-left: 2%;
+        height: 430px;
+    }
+    .cecyts_title{
+        color: #1b3b91;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .cecyts_subtitle{
+        color: #1b3b91;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #cet{
+        margin-left: 0;
+    }
+    #cecyts_imag{
+        margin-top: 230px;
+    }
+    #cecyts_img{
+        margin-top: 60px;
     }
 }
