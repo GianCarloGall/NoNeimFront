@@ -228,6 +228,9 @@ iframe{
     box-shadow: rgba(27,59,145,0.3) 5px 5px 5px 5px;
     border-radius: 10px;
     transition: all 0.5s ease;
+    width: 600px;
+    height: 450px;
+    border: 0;
 }
 .puntuacion{
     margin-top: 550px;
@@ -663,7 +666,7 @@ ul.slider li:target{
     }
     section{
         background: #e6e6e6;
-        padding-left: 2rem;
+        padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -674,12 +677,12 @@ ul.slider li:target{
     .logo{
         width: 70px;
         margin-top: 55px;
-        margin-left: 25px;
+        margin-left: 30px;
     }
     .fuente__title{
         font-size: 2rem;
         margin-top: 60px;
-        margin-left: 100px;
+        margin-left: 105px;
     }
     .texto_izq{
         display: block;
@@ -814,8 +817,59 @@ ul.slider li:target{
         margin-left: 10%;
     }
     .lista{
-        display: inline-block;
-        width: 95%;
-        margin-left: 1%;
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+    }
+    /*__________________________________________________________*/
+    .boton{
+        margin-top: 35px;
+        color: white;
+        font-weight: bold;
+        background: #1b3b91;
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid #1b3b91;
+        text-align: center;
+        width: 20%;
+        margin-left: 35%;
+    }
+    .text_dere{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .imagen_dere{
+        width: 70%;
+    }
+    .title{
+        margin-top: 250px;
+        font-size: 1.5rem;
+    }
+    iframe{
+        display: block;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+        width: 80%;
+        height: 30%;
+        margin-left: 5%;
+        border: 0;
+    }
+    .text_izq{
+        display: block;
+        position: absolute;
+        width: 80%;
+        margin-top: 58%;
+        margin-left: 5%;
+    }
+    .foto{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        border-radius: 10px;
+    }
+    .justificado{
+        width: 80%;
+        margin-left: 10%;
     }
 }
