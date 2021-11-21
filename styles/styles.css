@@ -924,4 +924,20 @@ ul.slider li:target{
     b{
         text-align: justify;
     }
+    /*_______________________________________________*/
+    .user{
+        position: absolute;
+        margin-top: 90%;
+        width: 25%;
+    }
+    .user2{
+        position: absolute;
+        margin-top: 90%;
+        width: 25%;
+    }
+    .datos_perfil{
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 35%;
+    }
 }
