@@ -68,7 +68,7 @@ header nav{
     right: 0;
     left: 0;
     height: 62px;
-    line-height: 32px;
+    line-height: 3´4px;
     z-index: 30;
 }
 section{
@@ -262,7 +262,7 @@ iframe{
 }
 .text_dere{
     width: 50%;
-    margin-left: 15%;
+    margin-left: 10%;
     display: inline-block;
 }
 li{
@@ -276,7 +276,11 @@ li i{
     color: #1b3b91;
 }
 .imagen_dere{
+    position: absolute;
+    display: inline-block;
     width: 30%;
+    left: 50%;
+    top: 130%;
 }
 li a{
     color: black;
@@ -839,7 +843,7 @@ ul.slider li:target{
         margin-left: 5%;
     }
     .imagen_dere{
-        width: 70%;
+        display: none;
     }
     .title{
         margin-top: 250px;
