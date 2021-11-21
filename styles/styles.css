@@ -385,11 +385,8 @@ input:focus{
 input:focus~label{
     top: -14px;
 }
-.invalid{
-    color: red
-}
-.valid{
-    color: green;
+input:invalid ~ .label1{
+    color: rgb(204, 39, 39);
 }
 .barra{
     position: relative;
@@ -725,5 +722,27 @@ ul.slider li:target{
     }
     .title2{
         font-size: 1.5rem;
+    }
+    /*_______________________________________________________________________*/
+    form{
+        display: block;
+        width: 80%;
+        margin-top: 220px;
+        margin-left: 20%;
+    }
+    .button{
+        padding: 7px 15px;
+        border: 2px solid #1b3b91;
+        border-radius: 5px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .images_form{
+        display: inline-block;
+        position: absolute;
+        width: 60%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10%;
     }
 }
