@@ -582,7 +582,7 @@ ul.slider li:target{
 #a{
     margin-left: 120px;
 }
-.justificado_pregunta{
+.justificado_preguntas{
     text-align: justify;
     margin-bottom: 10px;
 }
@@ -939,5 +939,37 @@ ul.slider li:target{
         position: absolute;
         margin-top: 45%;
         margin-left: 35%;
+    }
+    /*___________________________________________*/
+    .images_exam{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+    }
+    .button2{
+        padding: 7px 15px;
+        border-radius: 5px;
+        width: 40%;
+    }
+    .respuestas{
+        display: block;
+        width: 90%;
+        margin-left: 1%;
+        margin-bottom: 30px;
+    }
+    .form_exam{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .form_exam label{
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        transition: all 0.3s ease-in-out;   
+    }
+    #a{
+        margin-left: 5px;
     }
 }
